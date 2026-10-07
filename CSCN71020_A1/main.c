@@ -50,13 +50,13 @@ void add() {
 	result = num1 + num2;
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
-void subtract()
+void subtract() //Subtracts the second number from the first
 {
 	double num1, num2, result1;
 	printf("Enter the first value : ");
-	scanf_s("%lf", &num1);
+	scanf_s("%lf", &num1); //lf reads a decimal number
 	printf("Enter the second value : ");
 	scanf_s("%lf", &num2);
-	result1 = num1 - num2;
+	result1 = num1 - num2; //subtraction of both the values
 	printf("%lf - %lf = %lf\n", num1, num2, result1);
 }
